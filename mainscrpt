@@ -19,7 +19,7 @@ getgenv().Setting = {
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
-        ["AutoBuySurprise"] = true,
+        ["AutoBuySurprise"] = false,
     },
     ["Click"] = {
         ["Enable"] = true,
@@ -38,8 +38,8 @@ getgenv().Setting = {
     },
     ["Invisible"] = false,
     ["White Screen"] = false,
-    ["GunMethod"] = true, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
-    ["SpamSkill"] = false, -- Will use all skills as fast as possbile ignore holding skills
+    ["GunMethod"] = false, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
+    ["SpamSkill"] = true, -- Will use all skills as fast as possbile ignore holding skills
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
@@ -47,7 +47,7 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 0.6,
                 },
                [ "X"] = {
                     ["Enable"] = true,
@@ -56,7 +56,7 @@ getgenv().Setting = {
 
                 ["C"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1.5,
+                    ["HoldTime"] = 2,5,
                 },
             },
         },
@@ -107,11 +107,11 @@ getgenv().Setting = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 0,6,
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 2.5,
                 },
             },
         },
