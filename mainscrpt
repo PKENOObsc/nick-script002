@@ -2,7 +2,7 @@ getgenv().Key = 'df082fd3f5807f61f46966c2'
 repeat wait()
 until game:IsLoaded()
 wait()
-local TableChat = {"all my fellas"}
+local TableChat = {"F"}
 spawn(function()
     while wait() do 
         pcall(function()
@@ -43,7 +43,7 @@ getgenv().Setting = {
     ["Weapons"] = {
         ["Melee"] = {
             ["Enable"] = true,
-            ["Delay"] = 3,
+            ["Delay"] = 0.3,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
