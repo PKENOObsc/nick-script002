@@ -2,7 +2,7 @@ getgenv().Key = 'df082fd3f5807f61f46966c2'
 repeat wait()
 until game:IsLoaded()
 wait()
-local TableChat = {"F"}
+local TableChat = {"Mandei mais um pros quintos"}
 spawn(function()
     while wait() do 
         pcall(function()
@@ -15,7 +15,7 @@ getgenv().Setting = {
     ["Team"] = "Pirates", --Marines,Pirates
     ["Webhook"] = {
         ["Enabled"] = true,
-        ["Url Webhook"] = "Webhook Here", --Your Url
+        ["Url Webhook"] = "https://discord.com/api/webhooks/1168541214899961919/M40uUvVEHzmxfU_fXDl5lzYqSzAZktAtXDBuUBWUYntNSh1yhmczf5NchsZzfLAjChBa", --Your Url
     },
     ["Misc"] = {
         ["AutoBuyRandomandStoreFruit"] = true,
